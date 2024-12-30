@@ -1,0 +1,41 @@
+@font-face {
+    font-family: digital;
+    src: url(./fonts/digital-dream/DIGITALDREAMFAT.ttf);
+  }
+* {
+    color:white;
+    font-family: digital;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color:black;
+}
+
+.container {
+    height: 100vh;
+}
+.sub_container {
+    box-sizing:border-box;
+    height: 50%;
+    border:1px solid white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.sub_sub_container {
+    box-sizing:border-box;
+    float:left;
+    border:5px solid white;
+    border-radius: 100px;
+    padding:30px;
+    height:90%;
+    width: 100%;
+    margin: 0 2.5%;
+}
+#top_container {
+    height: 65%;
+}
+#bottom_container {
+    height: 35%;
+}
